@@ -139,7 +139,7 @@ if (inputs) {
         e.value = dv;
         isPlaceholder = true;
         e.isPlaceholder = isPlaceholder;
-        e.style.opacity = PLACEHOLDER_OPACITY;
+        e.style.color = "rgba(255, 255, 255, ".concat(PLACEHOLDER_OPACITY, ")");
       }
     });
   });
